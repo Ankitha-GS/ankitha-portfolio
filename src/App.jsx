@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import BackToTop from './components/BackToTop'
 import Hero from './sections/Hero'
 import About from './sections/About'
 import Skills from './sections/Skills'
@@ -30,6 +31,8 @@ function App() {
         <Experience />
         <Contact />
       </main>
+
+      <BackToTop />
     </div>
   )
 }

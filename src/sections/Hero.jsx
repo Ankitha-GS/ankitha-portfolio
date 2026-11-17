@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion'
-import { ArrowDownRight, ArrowUpRight, Mail } from 'lucide-react'
+import { ArrowDownRight, ArrowUpRight, Mail, Download } from 'lucide-react'
 
 function GitHubIcon() {
   return (
@@ -54,6 +54,13 @@ export default function Hero() {
           <a href="#contact" className="secondary-btn">
             Get in touch <ArrowDownRight size={17} />
           </a>
+          <a
+            href="/resume.pdf"
+            download="Ankitha_GS_Resume.pdf"
+            className="secondary-btn"
+          >
+            Download Resume <Download size={17} />
+          </a>
         </div>
 
         <div className="hero-socials">
@@ -95,7 +102,6 @@ export default function Hero() {
             className="profile-image"
           />
         </div>
-        
       </motion.div>
 
       <a href="#about" className="hero-scroll">
